@@ -1,0 +1,23 @@
+{
+  "name": "lambda-create",
+  "version": "1.0.0",
+  "description": "First time working with AWS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chris-Bortel-401n18-TA/lambda-create.git"
+  },
+  "author": "Chris Bortel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chris-Bortel-401n18-TA/lambda-create/issues"
+  },
+  "homepage": "https://github.com/Chris-Bortel-401n18-TA/lambda-create#readme",
+  "dependencies": {
+    "dynamoose": "^2.7.3",
+    "uuid": "^8.3.2"
+  }
+}
