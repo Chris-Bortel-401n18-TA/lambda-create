@@ -19,15 +19,15 @@ exports.handler = async (event) => {
     
     return {
       statusCode: 201,
-      response: savedRecord,
+      body: savedRecord,
     };
 
-  } catch {
+  } catch(e) {
     return {
       statusCode: 500,
-      response: exports.message,
+      body: e.message,
     }
-    
+
   }
     
 }
